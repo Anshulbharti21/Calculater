@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculater1.css">
+</head>
+<body>
+    <div id="calculater1">
+        <input type="text" id ="display" readonly>
+        <div id="button-container">
+            <button id="button" onclick="text_contant = ' '
+            document.querySelector('#display').value= text_contant;">c</button>
+
+            <button id="button" onclick="text_contant = text_contant + '1'
+            document.querySelector('#display').value= text_contant;">1</button>
+
+            <button id="button"  onclick="text_contant = text_contant + '2'
+            document.querySelector('#display').value= text_contant;">2</button>
+
+            <button id="button"  onclick="text_contant = text_contant + '3'
+            document.querySelector('#display').value= text_contant;">3</button>
+
+            <button id="button"  onclick="text_contant = text_contant + '4'
+            document.querySelector('#display').value= text_contant;">4</button>
+
+            <button id="button"  onclick="text_contant = text_contant + '5'
+            document.querySelector('#display').value= text_contant;">5</button>
+
+            <button id="button"  onclick="text_contant = text_contant + '6'
+            document.querySelector('#display').value= text_contant;">6</button>
+
+            <button id="button"  onclick="text_contant = text_contant + '7'
+            document.querySelector('#display').value= text_contant;">7</button>
+
+            <button id="button"  onclick="text_contant = text_contant + '8'
+            document.querySelector('#display').value= text_contant;">8</button>
+
+            <button id="button"  onclick="text_contant = text_contant + '9'
+            document.querySelector('#display').value= text_contant;">9</button>
+
+            <button id="button" onclick="text_contant = text_contant + '0'
+            document.querySelector('#display').value= text_contant;">0</button>
+
+            <button id="button"  onclick="text_contant = text_contant + '+'
+            document.querySelector('#display').value= text_contant;">+</button>
+
+            <button id="button" onclick="text_contant = text_contant + '-'
+            document.querySelector('#display').value= text_contant;">-</button>
+
+            <button id="button"  onclick="text_contant = text_contant + '*'
+            document.querySelector('#display').value= text_contant;">*</button>
+
+            <button id="button" onclick="text_contant = text_contant + '/'
+            document.querySelector('#display').value= text_contant;">/</button>
+
+            <button id="button"  onclick="text_contant= eval(text_contant)
+            document.querySelector('#display').value= text_contant;">=</button>
+        </div>
+    </div>
+    <script>
+        var text_contant = " ";
+        document.querySelector("#display").value = text_contant;
+    </script>
+</body>
+</html>
